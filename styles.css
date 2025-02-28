@@ -1,0 +1,29 @@
+body {
+    color: #fff;
+    background-color: #000;
+}
+
+video {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+section {
+    height: 200vh;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 70vh;
+    padding-bottom: 70vh;
+}
+
+.container {
+    position: sticky;
+    top: 30vh;
+}

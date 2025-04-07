@@ -39,6 +39,7 @@ scene.add(spotLight);
 const loader = new GLTFLoader();
 
 // Загрузка .glb-файла
+// ToDo оптимизировать https://github.com/CesiumGS/gltf-pipeline
 loader.load('assets/3d/GLITF.glb',
     (gltf) => {
         const model = gltf.scene;

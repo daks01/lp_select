@@ -4,11 +4,13 @@
   "description": "",
   "main": "scripts-3d.js",
   "scripts": {
+    "dev": "serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "serve": "^14.2.4",
     "three": "^0.174.0"
   }
 }
